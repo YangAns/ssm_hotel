@@ -26,6 +26,7 @@ public class FileController {
      */
     @RequestMapping("/uploadFile")
     public String uploadFile(MultipartFile file){
+        System.out.println();
         //创建Map集合保存返回的JSON数据
         Map<String,Object> map = new HashMap<String,Object>();
         //判断是否有选中文件
