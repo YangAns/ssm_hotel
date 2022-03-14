@@ -30,6 +30,7 @@ public class FileController {
         System.out.println();
         System.out.println(112);
         System.out.println("master test");
+        System.out.println(1123);
         //创建Map集合保存返回的JSON数据
         Map<String,Object> map = new HashMap<String,Object>();
         //判断是否有选中文件
