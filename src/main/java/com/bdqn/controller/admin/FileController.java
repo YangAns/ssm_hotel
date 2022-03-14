@@ -28,7 +28,7 @@ public class FileController {
     public String uploadFile(MultipartFile file){
         System.out.println();
         System.out.println();
-        System.out.println(11);
+        System.out.println(112);
         //创建Map集合保存返回的JSON数据
         Map<String,Object> map = new HashMap<String,Object>();
         //判断是否有选中文件
